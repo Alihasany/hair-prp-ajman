@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export NVM_DIR=\"$HOME/.nvm\")",
+      "Bash([ -s \"$NVM_DIR/nvm.sh\" ])",
+      "Bash(source \"$NVM_DIR/nvm.sh\")",
+      "Bash(npm create astro@latest hair-prp-ajman -- --template minimal)",
+      "Bash(npm install)",
+      "Bash(npm create astro@latest hair-prp-ajman -- --template minimal --yes)",
+      "Bash(git add .)",
+      "Bash(git commit -m \"Initial commit: Hair PRP Ajman website with all pages\")",
+      "Bash(git config user.email \"info@hairprpajman.com\")",
+      "Bash(git config user.name \"Hair PRP Ajman\")",
+      "Bash(gh --version)",
+      "Bash(npm install -g gh)",
+      "Bash(gh auth status)",
+      "Bash(curl -u \"username:token\" https://api.github.com/user/repos -d '{\"\"name\"\":\"\"hair-prp-ajman\"\",\"\"description\"\":\"\"Hair PRP Session business website for Ajman\"\",\"\"private\"\":false}')",
+      "Bash(git remote add origin https://github.com/your-username/hair-prp-ajman.git)",
+      "Bash(git add README.md)",
+      "Bash(git commit -m \"Update README with Hair PRP Ajman information and deployment instructions\")",
+      "Bash(git add vercel.json)",
+      "Bash(git commit -m \"Add Vercel configuration file\")",
+      "Bash(git push -u origin main)",
+      "Bash(git push -u origin master)",
+      "Bash(git commit -m \"Fix Vercel configuration for Astro project\")",
+      "Bash(git push)",
+      "Bash(git pull)",
+      "Bash(clear)",
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(npm create astro@latest hair-prp-ajman -- --template basics)",
+      "Bash(echo \"y\ny\")",
+      "Bash(npx create-astro@latest hair-prp-ajman)",
+      "Bash(npm install astro)",
+      "Bash(npm init astro .)"
+    ]
+  }
+}

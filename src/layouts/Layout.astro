@@ -1,0 +1,36 @@
+---
+// Base layout for all pages
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} | Hair PRP Sessions Ajman</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1 class="logo">Hair PRP Sessions Ajman</h1>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/locations">Locations</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Hair PRP Sessions Ajman. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
